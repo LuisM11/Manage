@@ -1,0 +1,205 @@
+<!-- PROFE EL VIEWPORT SIZE DE MI PANTALLA ES 1536px (VERSION DESKTOP) 
+375px VERSION MOBILE (MOBILE FIRST)-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./css/styles.css" >
+  <meta charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  
+  <title>Evaluacion Final</title>
+</head>
+
+  <body>
+    <header>
+      <img src="./img/logo.svg" alt="LogoManage" class="Logo" />
+      <nav>
+        <ul>
+          <li>Pricing</li>
+          <li>Product</li>
+          <li>About Us</li>
+          <li>Careers</li>
+          <li>Community</li>
+        </ul>
+      </nav>
+      <button class="Boton">Get Started</button>
+      <img
+        id="Burguer"
+        src="./img/icon-hamburger.svg"
+        alt="menuHamburguesa"
+      />
+    </header>
+
+    <main>
+      <section id="seccion1" class="flexSeccion">
+        <img
+          src="./img/illustration-intro.svg"
+          alt="Graficas"
+          id="Graficas"
+        />
+        <div id="subseccion">
+          <h1>Bring everyone together to build better products.</h1>
+          <p class="Texto1">
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the large team goals in view.
+          </p>
+          <button class="Boton">Get Started</button>
+        </div>
+      </section>
+
+      <section class="marginT flexSeccion">
+        <div class="flexSeccion">
+          <h2>What´s different about Manage?</h2>
+          <p class="Texto1" id="paddingTexto">
+            Manage provides all the functionality your teas needs, without the
+            complexity. Our software is tailor-made for modern digital product
+            teams
+          </p>
+        </div>
+        <div class="flexSeccion marginSecciones" id="paddingTexto">
+          <h3>
+            <button id="botonesH3" class="Boton">01</button>
+            Track company-wide progress
+          </h3>
+          <p class="Texto1" id="parrafosH3">
+            See how your day-to-day tasks fit into the wider vision. Go from
+            tracking progress at the milestone level all the way done to the
+            smallest of details. Never lose sight of the bigger picture again.
+          </p>
+          <h3>
+            <button id="botonesH3" class="Boton">02</button>
+            Advance built-in reports
+          </h3>
+          <p id="parrafosH3" class="Texto1">
+            Set internal delivery estimates and track progress toward company
+            goals. Our customisable dashboard helps you build out the reports
+            you need to keep key stakeholders informed.
+          </p>
+          <h3>
+            <button id="botonesH3" class="Boton">03</button>
+            Everything you need in one place
+          </h3>
+          <p id="parrafosH3" class="Texto1">
+            Stop jumping from one service to another to communicate, store
+            files, track tasks and share documents. Manage offers an all-in-one
+            team productivity solution.
+          </p>
+        </div>
+      </section>
+
+      <section id="cards" class="flexSeccion marginSecciones">
+        <h2>What they´ve said</h2>
+        <article class="cardsOcultas">
+          <img
+            class="fotoPersonal"
+            src="./img/avatar-anisha.png"
+            alt="anisha"
+          />
+          <div class="descrPersonas">
+            <h3>Alnisha Li</h3>
+            <p class="Texto1" id="descripcionTexto">
+              “Manage has supercharged our team´s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”
+            </p>
+          </div>
+          <div class="puntos">
+            <span></span>
+            <span id="relleno"></span>
+            <span></span>
+            <span></span>
+          </div>
+        </article>
+
+        <article>
+          <img
+            class="fotoPersonal"
+            src="./img/avatar-ali.png"
+            alt="ali"
+          />
+          <div class="descrPersonas">
+            <h3>Ali Bravo</h3>
+            <p class="Texto1" id="descripcionTexto">
+              “We have been able to cancel so many other subscriptions since
+              using manage. There ir no more cross-channel confusion and
+              everyone is much more focused.”
+            </p>
+          </div>
+          <div class="puntos">
+            <span></span>
+            <span id="relleno"></span>
+            <span></span>
+            <span></span>
+          </div>
+        </article>
+
+        <article class="cardsOcultas">
+          <img
+            class="fotoPersonal"
+            src="./img/avatar-richard.png"
+            alt="ali"
+          />
+          <div class="descrPersonas">
+            <h3>Richard Watts</h3>
+            <p class="Texto1" id="descripcionTexto">
+              “Manage allows us to provide structure and process. It keeps us organized and focused. I can´t stop recommending them to everyone i talk to!”
+            </p>
+          </div>
+          <div class="puntos">
+            <span></span>
+            <span id="relleno"></span>
+            <span></span>
+            <span></span>
+          </div>
+        </article>
+
+        <button class="Boton">Get Started</button>
+      </section>
+
+      <section id="Mensaje" class="flexSeccion">
+        <h2>Simplify how your team works today.</h2>
+        <button class="Boton">Get Started</button>
+      </section>
+    </main>
+
+    <footer>
+      <form action="./registro" method="POST" name="formularioFooter">
+        <input
+          type="email"
+          name="correo"
+          id="correo"
+          value="Updates in your inbox..."
+          required
+        />
+        <button class="Boton" type="submit">GO</button>
+      </form>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Pricing</li>
+          <li>Products</li>
+          <li>About Us</li>
+        </ul>
+        <ul id="ul-padding">
+          <li>Careers</li>
+          <li>Community</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </nav>
+      <section>
+        <aside>
+          <img src="./img/icon-facebook.svg" alt="facebookLogo" /><img
+            src="./img/icon-youtube.svg"
+            alt="YTLogo"
+          /><img src="./img/icon-twitter.svg" alt="twitterLogo" /><img
+            src="./img/icon-pinterest.svg"
+            alt="PinterestLogo"
+          /><img src="./img/icon-instagram.svg" alt="InstagramLogo" />
+        </aside>
+        <img id="LogoFooter" src="./img/footer-logo.svg" alt="LogoManageFooter" />
+      </section>
+      <span>Copyright 2020. All Rights Reserved</span>
+    </footer>
+  </body>
+</html>

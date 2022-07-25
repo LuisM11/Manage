@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url('../img/bg-tablet-pattern.svg'), url('../img/bg-tablet-pattern.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 40px -60px, 600% 400px;
+    background-size: 100vw, 90vw;
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2em;
+}
+
+#subseccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav,header button{
+    display: none;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo {
+    width: 28%;
+}
+
+article {
+    position: relative;
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 700;
+    color: #232C50;
+}
+
+.flexSeccion h2 {
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: 600;
+    color: #232C50;
+}
+
+.flexSeccion h3 {
+    font-size: 1em;
+    font-weight: 600;
+    color: #232C50;
+    align-self: flex-start;
+    width: 108%;
+    background-color: rgb(249, 231, 222);
+}
+
+.descrPersonas h3 {
+    background-color: transparent;
+    text-align: center;
+    padding-top: 5em;
+    width: 100%;
+}
+
+.fotoPersonal {
+    height: 22%;
+    position: absolute;
+    bottom: 70%;
+    right: 38%;
+}
+
+.marginT {
+    margin-top: 5em
+}
+
+.marginSecciones {
+    margin-bottom: 2em;
+}
+
+
+#paddingTexto {
+    padding: 0;
+}
+
+#parrafosH3 {
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+#descripcionTexto {
+    margin: 0;
+    padding: 1em 0 2em;
+}
+
+#botonesH3 {
+    position: relative;
+    right: 1em;
+    font-weight: 600;
+}
+
+#Graficas {
+    width: 80vw;
+}
+
+#Burguer {
+    width: 7%;
+}
+
+.Boton {
+    background-color: rgb(242, 95, 58);
+    border: none;
+    color: white;
+    padding: 0.8em 1.9em;
+    border-radius: 25px;
+    font-weight: 500;
+    box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
+}
+
+.Texto1 {
+    color: #B3B2B7;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.6em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 0.83em;
+    padding: 0 3em
+}
+
+.flexSeccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.5em;
+}
+
+.descrPersonas {
+    background-color: #FAFAFA;
+}
+
+.cardsOcultas{
+    display: none;
+}
+.puntos {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0 2em;
+}
+
+.puntos span {
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border: rgb(242, 95, 58) solid 1.5px;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+span#relleno {
+    background-color: rgb(242, 95, 58);
+}
+
+#Mensaje{
+    background-color: rgb(242, 95, 58);
+    background-image: url(../img/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 20vw 70%;
+    padding: 5em 3em;
+    
+
+}
+#Mensaje h2{
+    font-size: 2em;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1em;
+}
+#Mensaje .Boton{
+    background-color: white;
+    color: rgb(242, 95, 58) ;
+    font-size: 1em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+footer{
+    background-color: #1E1E26;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer form{
+    width:80% ;
+    margin-top: 2em;
+    display: flex ; 
+    justify-content:space-between;
+}
+form input{
+    width: 73%;
+    border-radius: 20px;
+    color:#A0A0A0;
+    font-size: 0.7em;
+    font-weight: 500;
+    padding-left: 1.5em;
+}
+
+footer .Boton{
+    box-shadow: none;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    height: 35%;
+    width: 60%;
+    color: white;
+    font-size: 0.8em;
+    padding-left: 0.8em;
+}
+
+#ul-padding{
+    padding-bottom: 2.5em;
+}
+footer ul{
+    font-weight: 400 ;
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-around;
+    height: 100%;
+    
+}
+footer aside{
+    width: 85%;
+    height: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+footer section{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+footer span{
+    color: #8C8C94;
+    font-size: 0.7em;
+
+}
+@media (min-width: 376px) {
+    body{
+        background-size: 60vw, 60vw;
+        background-position:120% -8%, -80% 50%;
+    }
+    .Boton{
+        font-size: 1em;
+        cursor: pointer;
+    }
+    .Boton:hover{
+        opacity:0.5;
+    }
+    .Texto1{
+        font-size: 1.2em;
+    }
+    li{
+        cursor: pointer;
+    }
+
+    header{
+        justify-content: space-around;
+        align-items: center;
+        padding: 3em 1em 3em 0em ;
+        width: 100%;
+    }
+    
+    .Logo{
+        width: 10%;
+    }
+
+    header nav,header button{
+        display:flex;
+    }
+    header nav{
+        width: 38%;
+    }
+    header li:hover{
+        color: #B3B2B7;
+    }
+    header ul{
+        justify-content: space-around;
+        width: 100%;
+        list-style-type: none ;
+        font-size: 1em;
+        color: #242E52;
+        font-weight: 500;
+    }
+    
+    #Burguer{
+        display: none;
+    }
+
+
+    #seccion1{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+        margin: 3em 0em;
+    }
+    #subseccion{
+        width: 40%;
+        align-items: flex-start;
+    }
+    #subseccion p{
+        text-align: start;
+        padding:0 4em 0 0 ;
+    }
+    h1{
+        text-align: start;
+        font-size: 4em;
+    }
+    #Graficas{
+        width: 40%;
+    }
+    .marginT.flexSeccion{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .marginT.flexSeccion h2{
+        text-align: start;
+        padding-left: 0.8em;
+        font-size: 2.8em ;
+    }
+    .marginT.flexSeccion p{
+        text-align: start;
+    }
+    .marginT.flexSeccion #paddingTexto.Texto1{
+        padding: 0 6em 0 2em;
+    }
+    .flexSeccion.marginSecciones#paddingTexto{
+        margin-left: 4em;
+    }
+    .flexSeccion.marginSecciones#paddingTexto h3{
+        width:auto;
+        background-color: transparent;
+        font-size: 1.7em ;
+    }
+    .flexSeccion.marginSecciones#paddingTexto p{
+        margin-left:4.5em ;
+        padding-right: 4em;
+    }
+    .flexSeccion.marginSecciones#paddingTexto #botonesH3{
+        font-size: 0.9rem;
+    }
+    .flexSeccion.marginSecciones#paddingTexto #botonesH3:hover{
+        opacity: 1;
+        cursor:default;
+        
+    }
+    .cardsOcultas{
+        display:initial;
+    }
+    .cardsOcultas .descrPersonas{
+        padding-bottom: 1.1em;
+    }
+    #cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #cards h2{
+        width: 100%;
+        font-size: 2.8em ;
+        margin: 2em 0 0.5em 0;
+    }
+    #cards article{
+        width: 29%;
+        margin-left: 3em;
+    }
+    #cards .puntos{
+        display: none;
+    }
+    #cards button{
+        margin: 2% 0 10% 45%;
+    }
+    #cards h3{
+        font-size: 1.7em;
+    }
+    #cards #descripcionTexto{
+        padding: 1em 1em 1em 2em;
+    }
+
+    #Mensaje{
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left:0em ;
+    }
+    #Mensaje h2{
+        font-size: 3em;
+        width: 45%;
+        text-align: start;
+        margin: 0;
+    }
+    #Mensaje .Boton:hover{
+        color: rgb(238, 168, 150);
+        opacity: 1;
+    }
+    footer{
+        position: relative;
+        flex-direction: row-reverse;
+        height: 25vh;
+        padding-right: 5em;
+    }
+    footer form{
+        width: 25%;
+        padding-bottom: 5em;
+        padding-right: 1em;
+        justify-content: center;
+    }
+    footer input{
+        width: 60%;
+        margin-right: 0.8em;
+    }
+    footer .Boton:hover{
+        background-color: rgb(238, 168, 150);
+        opacity: 1;
+    }
+    footer .Boton{
+        padding: 0.7em 1.4em;
+        font-size: 1em;
+    }
+    footer nav{
+        font-size: 0.9em;
+        height: 70%;
+        width: 35%;
+        padding: 0;
+        justify-content: space-around;
+    }
+    footer li:hover{
+        color: rgb(242, 95, 58);
+    }
+    footer section{
+        height: 50%;
+        flex-direction: column-reverse;
+        width: 26%;
+        justify-content: space-between;
+    }
+    footer aside{
+        width: 70%;
+        height: 27%;
+    }
+    footer #LogoFooter{
+        width: 60%;
+        
+    }
+
+    footer span{
+        position: absolute;
+        top: 85%;
+        left: 75%;
+    }
+
+}
